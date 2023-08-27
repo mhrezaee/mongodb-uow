@@ -5,11 +5,33 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E33EAC9C-BA6F-4855-9113-42F395C3B8FB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{9F1176D5-69DC-437E-8542-DED0E2119FE3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9F1176D5-69DC-437E-8542-DED0E2119FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbDotNet.Core", "src\MongoDbDotNet.Core\MongoDbDotNet.Core.csproj", "{8FB71CC9-150D-4C34-83B3-90203A3A592A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbDotNet.Infrastructure", "src\MongoDbDotNet.Infrastructure\MongoDbDotNet.Infrastructure.csproj", "{1FCCD30A-5897-438D-BA94-322E324C23C2}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB71CC9-150D-4C34-83B3-90203A3A592A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB71CC9-150D-4C34-83B3-90203A3A592A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB71CC9-150D-4C34-83B3-90203A3A592A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB71CC9-150D-4C34-83B3-90203A3A592A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCCD30A-5897-438D-BA94-322E324C23C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCCD30A-5897-438D-BA94-322E324C23C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCCD30A-5897-438D-BA94-322E324C23C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCCD30A-5897-438D-BA94-322E324C23C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FB71CC9-150D-4C34-83B3-90203A3A592A} = {E33EAC9C-BA6F-4855-9113-42F395C3B8FB}
+		{1FCCD30A-5897-438D-BA94-322E324C23C2} = {E33EAC9C-BA6F-4855-9113-42F395C3B8FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B82F5E88-5011-4819-A9C2-E39AEBB41CC1}
