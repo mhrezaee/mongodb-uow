@@ -1,4 +1,4 @@
-# Powerful .NET MongoDB Repository and Unit of Work Implementation 🚀
+# .NET MongoDB Repository pattern and Unit of Work design Implementation 🚀
 
 Welcome to my GitHub repository! Here, I've crafted a robust and efficient implementation of the Repository Pattern and Unit of Work design for seamless integration with MongoDB in your .NET projects. Harness the full potential of MongoDB's NoSQL capabilities while maintaining clean, organized, and maintainable code.
 
