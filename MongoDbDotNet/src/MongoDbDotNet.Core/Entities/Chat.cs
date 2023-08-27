@@ -25,4 +25,6 @@ public class Message
     public string CreatedDate { get; set; }
     [BsonElement("created_timestamp")]
     public double CreatedTimestamp { get; set; }
+    [BsonElement("content")]
+    public string Content { get; set; }
 }
